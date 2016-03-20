@@ -39,7 +39,7 @@ Para lhe dar um vislumbre de a abominação que estamos prestes a criar:
    célula é zero já (caso em que o programa salta após o
    Coincidindo `]`, ou seja, o programa termina), ou diferente de zero. No caso diferente de zero,
    o `[` é simplesmente ignorado, `-` é avaliado e diminui a célula atual
-   por um, e `]` é atingido. Se a célula é zero agora, então ignorar o `] 'e
+   por um, e `]` é atingido. Se a célula é zero agora, então ignorar o `]` 'e
    rescindir, caso contrário, pule de volta para depois do `[`. A partir desta você pode ver como
    `[]` Atua como um loop.
    
