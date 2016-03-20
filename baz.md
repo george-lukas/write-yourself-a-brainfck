@@ -37,7 +37,7 @@ Para lhe dar um vislumbre de a abominação que estamos prestes a criar:
 
 - `[-]` Limpa uma célula contendo um valor positivo: Quando a `[` é atingido, o
    célula é zero já (caso em que o programa salta após o
-   Coincidindo `] ', ou seja, o programa termina), ou diferente de zero. No caso diferente de zero,
+   Coincidindo `]`, ou seja, o programa termina), ou diferente de zero. No caso diferente de zero,
    o `[` é simplesmente ignorado, `-` é avaliado e diminui a célula atual
    por um, e `]` é atingido. Se a célula é zero agora, então ignorar o `] 'e
    rescindir, caso contrário, pule de volta para depois do `[`. A partir desta você pode ver como
@@ -53,14 +53,14 @@ Para lhe dar um vislumbre de a abominação que estamos prestes a criar:
    célula, um por um, até que a célula à esquerda está vazia. No final, o ponteiro
    estar na célula à esquerda vazio, enquanto a célula vizinha é preenchido com os dados.
    
-   - Para imprimir a letra "a", que tem um valor ASCII 97, use `++++++++++ [> ++++++++++ <-]> ---`.. Isso inicializa pilha 0 com 10, e em seguida, incrementa celular 1 dez vezes por outros 10, nos dando 100 na célula 1. 
-   Finalmente, subtraia 3 e imprimir o resultado. O [standard "Hello World"program][helloworld] é construído com base neste princípio.
-   [helloworld]: http://en.wikipedia.org/wiki/Brainfuck#Hello_World.21
+   - Para imprimir a letra "a", que tem um valor ASCII 97, use `++++++++++ [> ++++++++++ <-]> ---`. Isso inicializa pilha 0 com 10, e em seguida, incrementa celular 1 dez vezes por outros 10, nos dando 100 na célula 1. 
+Finalmente, subtraia 3 e imprimir o resultado. O [standard "Hello World"program][helloworld] é construído com base neste princípio.
+[helloworld]: http://en.wikipedia.org/wiki/Brainfuck#Hello_World.21
 
    Como você pode ver, os programas não são muito legível. Como temos sorte que não somos nós que vamos tentar escrever, mas sim implementa-lo, que é muito mais fácil.
-   
-   Parte 1: Brainfuck type, e como analisar isso.
-   
+
+Parte 1: Brainfuck type, e como analisar isso.
+
    Para o tipo de dados, vamos simplesmente criar um que tem um construtor para cada elemento sintática:
    
    ```haskell
