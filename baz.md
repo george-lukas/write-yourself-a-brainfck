@@ -108,7 +108,7 @@ Aqui estão algumas melhorias que você pode fazer em seu código. (Não se preo
 
 1. (fácil) Comentários não são necessários para a avaliação, portanto, pode apenas deixá-los
     a partir da fonte quando nós analisá-lo. Olhe para cima o que `mapMaybe` faz (por exemplo,
-    usando [Hoogle] [Hoogle]) e usá-lo para substituir o `map` em` parseBrainfuck`
+    usando [Hoogle] [Hoogle]) e usá-lo para substituir o `map` em `parseBrainfuck`
     de modo que os comentários são ignorados.
 
 [hoogle]: http://www.haskell.org/hoogle/
@@ -125,7 +125,7 @@ Aqui estão algumas melhorias que você pode fazer em seu código. (Não se preo
        parêntese, e `-]` tem um parêntese de fechamento, mas não correspondente
        uma abertura. Escrever uma função `checkSyntax` do tipo
        `BrainfuckSource -> Maybe BrainfuckSource` que retorna `Nothing` se o
-       código for inválido, e de outra forma `Apenas <código válido>`. Use esta função para
+       código for inválido, e de outra forma válida  `<código válido>`. Use esta função para
        modificar `parseBrainfuck` para rejeitar código inválido, o que, em seguida, tem o novo
        digite `String -> Maybe BrainfuckSource`.
 
