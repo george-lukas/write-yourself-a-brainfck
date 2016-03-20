@@ -61,9 +61,9 @@ Finalmente, subtraia 3 e imprimir o resultado. O [standard "Hello World"program]
 
 Parte 1: Brainfuck type, e como analisar isso.
 
-   Para o tipo de dados, vamos simplesmente criar um que tem um construtor para cada elemento sintática:
-   
-   ```haskell
+Para o tipo de dados, vamos simplesmente criar um que tem um construtor para cada elemento sintática:
+
+```haskell
 data BrainfuckCommand = GoRight      -- >
                       | GoLeft       -- <
                       | Increment    -- +
