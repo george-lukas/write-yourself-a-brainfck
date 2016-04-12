@@ -200,7 +200,7 @@ Observe o primeiro caso, que é invocado quando nós funcionamos fora do código
 Agora que isso está coberta, vamos passar para as próximas duas instruções, além e subtração:
 
 ```haskell
-run (Tape l p r) source@(Tape _ Increment  _) =
+run (Tape l p r) source@(Tape _ Increment  _) =
     advance (Tape l (p+1) r) source
 
 run (Tape l p r) source@(Tape _ Decrement  _) =
