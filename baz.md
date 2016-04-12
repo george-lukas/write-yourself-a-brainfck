@@ -276,7 +276,7 @@ seekLoopL b dataTape source@(Tape _ LoopL _) =
     seekLoopL (b-1) dataTape (moveLeft source)
 seekLoopL b dataTape source@(Tape _ LoopR _) =
     seekLoopL (b+1) dataTape (moveLeft source)
-seekLoopL b dataTape source =
+seekLoopL b dataTape source =
     seekLoopL b dataTape (moveLeft source)
 ```
 
