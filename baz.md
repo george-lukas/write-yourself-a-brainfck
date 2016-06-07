@@ -1,5 +1,7 @@
 # Write yourself a Brainfuck in an hour 
 
+[[Original](https://github.com/quchen/articles/blob/master/write_yourself_a_brainfuck.md)]
+
 Introdução
 ----------
 
